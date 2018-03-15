@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<gameData>
+	<tileContainer>
+	  <tile id="0" description=" " name="Tundra">
+	  	<firstTier>
+		  	<card id="0" 
+			  	order="1" 
+			  	text="Here in the tundra you find a sword covered in blood"
+			  	type="ItemCard">
+			  	<item 
+			  		description="sword" 
+			  		text=""
+			  		attack="10"
+					speed="0"
+					defense="0"
+					heal="0"
+					uses = "3"
+					>
+			  	</item>
+			</card>
+		</firstTier>
+	  </tile>
+	  <tile id="1" description=" " name="Desert">
+	  	<firstTier>
+		  	<card id="0" 
+			  	order="1" 
+			  	text="a desert flower is sickly sweet"
+			  	type="ItemCard">
+			  	<item 
+			  		description="desert flower" 
+			  		text=""
+			  		attack="10"
+					speed="5"
+					defense="0"
+					heal="0"
+					uses = "10"
+					>
+			  	</item>
+			</card>
+		</firstTier>
+	  </tile>
+	  <tile id="2" description=" " name="Island">
+	  	<firstTier>
+	  		<card id="1"
+		  		order="2"
+		  		text="The island is full of monsters"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  </firstTier>
+	  </tile>
+	  <tile id="4" description=" " name="City">
+	  	<firstTier>
+		  	<card id="0" 
+		  		order="1" 
+		  		text="You hurry onto the street to find them, grabbing the nearest object"
+		  		type="ItemCard">
+		  		<item 
+		  			description="knife" 
+		  			text="you grab a kitchen knife as you head for the door"
+		  			attack="5"
+					speed="0"
+					defense="0"
+					heal="0"
+					uses = "3"
+					>
+		  		</item>
+		  		<item 
+		  			description="boots" 
+		  			text="you quickly jump into an old pair of boots as you rush for the door"
+		  			attack="0"
+					speed="5"
+					defense="0"
+					heal="0"
+					uses = "10"
+					>
+		  		</item>
+		  	</card>
+		  	<card id="1"
+		  		order="2"
+		  		text="A monster apears"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="2" 
+		  		order="3" 
+		  		text="For intervention, help for them to heal, and save me to have them defeat a monster"
+		  		type="ItemCard">
+		  		<item 
+		  			description="help" 
+		  			text="help me, you rasp"
+		  			attack="0"
+					speed="0"
+					defense="0"
+					heal="10"
+					uses = "1"
+					>
+		  		</item>
+		  		<item 
+		  			description="save me" 
+		  			text="save me, you plead"
+		  			attack="10"
+					speed="0"
+					defense="0"
+					heal="0"
+					uses = "1"
+					>
+		  		</item>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="Lightning flashes, briefly somthing catches your eye. Is something there, or is it just a shadow"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="Another Monster leaps from the darkness"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="2" 
+		  		order="3" 
+		  		text="You find a bottle, should you drink the bottle or use it as a wepon"
+		  		type="ItemCard">
+		  		<item 
+		  			description="drink bottle" 
+		  			text="help me, you rasp"
+		  			attack="0"
+					speed="0"
+					defense="0"
+					heal="10"
+					uses = "1"
+					>
+		  		</item>
+		  		<item 
+		  			description="smash bottle" 
+		  			text="save me, you plead"
+		  			attack="10"
+					speed="0"
+					defense="0"
+					heal="0"
+					uses = "1"
+					>
+		  		</item>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="More monsters, its relentless. You must soon escape"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="A monster again apears"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="The Hydra, a final boss"
+		  		type="MonsterCard"
+		  		health="50"
+		  		attack="20"
+		  		defense="10"
+		  		speed="5"
+		  		>
+		  	</card>
+		</firstTier>
+		<secondTier>
+
+		</secondTier>
+		<thirdTier>
+		</thirdTier>
+	  </tile>
+	  <tile id="5" description=" " name="Plains">
+	  	<firstTier>
+		  	<card id="0" 
+			  	order="1" 
+			  	text="the plains contain items of good fortune"
+			  	type="ItemCard">
+			  	<item 
+			  		description="plains knife" 
+			  		text=""
+			  		attack="3"
+					speed="5"
+					defense="0"
+					heal="0"
+					uses = "10"
+					>
+			  	</item>
+			  	<item 
+			  		description="plains boot" 
+			  		text=""
+			  		attack=""
+					speed="10"
+					defense="0"
+					heal="10"
+					uses = "10"
+					>
+			  	</item>
+			</card>
+			<card id="3"
+		  		order="4"
+		  		text="A monster again apears"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		</firstTier>
+	  </tile>
+	  <tile id="6" description=" " name="Mountains">
+	  	<firstTier>
+			<card id="3"
+		  		order="4"
+		  		text="In the Mountains there is only death"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="In the Mountains there is only death"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  	<card id="3"
+		  		order="4"
+		  		text="In the Mountains there is only death"
+		  		type="MonsterCard"
+		  		health="10"
+		  		attack="10"
+		  		defense="10"
+		  		speed="2"
+		  		>
+		  	</card>
+		  </firstTier>
+	  </tile>
+	  <tile id="7" description=" " name="Forest">
+	  	<tileCard id="2" type="action"></tileCard>
+	  	<tileCard id="3" type="action2"></tileCard>
+	  </tile>
+	  <tile id="8" description=" " name="Woods"></tile>
+	  <tile id="9" description=" " name="Marsh"></tile>
+	</tileContainer>
+	<cinimaticContainer>
+		<introCinimatic>
+			<scene>You know the reason, it is well known</scene>
+			<scene>The counceler was old, the city had worn him down, men with vested interests had whispered in his ear</scene>
+			<scene>They had grown rich but the city had decayed</scene>
+			<scene>The decay called to the citizens, who would, from time to time</scene>
+			<scene>wander in the lower zones where it hands thickly in the air</scene>
+			<scene>To some, the call was stronger, and it could be difficult to make their way back up</scene>
+			<scene>Wander for too long and many would not come back</scene>
+			<scene> Carter had been spending more and mroe time wandering through the decay</scene>
+			<scene>Tonight it is getting late. And he has still not come home</scene>
+		</introCinimatic>
+	</cinimaticContainer>
+</gameData>
